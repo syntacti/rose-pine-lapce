@@ -72,7 +72,7 @@ magenta = "#c4a7e7"
 "editor.link" = "$cyan"
 
 "inlay_hint.foreground" = "$white"
-"inlay_hint.background" = "#528bFF88"
+"inlay_hint.background" = "#524f6788"
 
 "error_lens.error.foreground" = "$red"
 "error_lens.error.background" = "#E06C7520"

@@ -20,7 +20,7 @@ red = "#eb6f92"
 yellow = "#E5C07B"
 orange = "#D19A66"
 green = "#3e8fb0"
-purple = "#C678DD"
+purple = "#c4a7e7"
 cyan = "#ea9a97"
 magenta = "#c4a7e7"
 
@@ -72,7 +72,7 @@ magenta = "#c4a7e7"
 "editor.link" = "$cyan"
 
 "inlay_hint.foreground" = "$white"
-"inlay_hint.background" = "#39355288"
+"inlay_hint.background" = "#56526e88"
 
 "error_lens.error.foreground" = "$red"
 "error_lens.error.background" = "#E06C7520"
