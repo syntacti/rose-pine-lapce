@@ -1,0 +1,133 @@
+[theme]
+name = "Rosé Pine Dawn"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
+
+[theme.base]
+white = "#575279"
+black = "#9893a5"
+grey = "#f2e9e1"
+blue = "#56949f"
+red = "#b4637a"
+yellow = "#ea9d34"
+green = "#286983"
+purple = "#A626A4"
+cyan = "#d7827e"
+magenta = "#907aa9"
+
+[theme.syntax]
+"comment" = "#A0A1A7"
+
+"constant" = "$yellow"
+"type" = "$yellow"
+"typeAlias" = "$yellow"
+"number" = "$yellow"
+"enum" = "$yellow"
+"struct" = "$yellow"
+"structure" = "$yellow"
+"interface" = "$yellow"
+"attribute" = "$yellow"
+"constructor" = "$yellow"
+
+"function" = "$blue"
+"method" = "$blue"
+"function.method" = "$blue"
+
+"keyword" = "$purple"
+"selfKeyword" = "$purple"
+
+"field" = "$red"
+"property" = "$red"
+"enumMember" = "$red"
+"enum-member" = "$red"
+"variable.other.member" = "$red"
+
+"string" = "$green"
+
+"type.builtin" = "$cyan"
+"builtinType" = "$cyan"
+"escape" = "$cyan"
+"embedded" = "$cyan"
+
+[theme.ui]
+"lapce.active_tab" = "$white"
+"lapce.inactive_tab" = "$grey"
+"lapce.error" = "#E51400"
+"lapce.warn" = "#E9A700"
+"lapce.dropdown_shadow" = "#B4B4B4"
+"lapce.border" = "#B4B4B4"
+"lapce.scroll_bar" = "#B4B4B4"
+
+"terminal.cursor" = "#cecacd"
+"terminal.foreground" = "$white"
+"terminal.background" = "#faf4ed"
+"terminal.white" = "$white"
+"terminal.black" = "$black"
+"terminal.red" = "$red"
+"terminal.blue" = "$blue"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.cyan" = "$cyan"
+"terminal.magenta" = "$magenta"
+"terminal.bright_white" = "#090A0B"
+"terminal.bright_red" = "$red"
+"terminal.bright_blue" = "$blue"
+"terminal.bright_green" = "$green"
+"terminal.bright_yellow" = "$yellow"
+"terminal.bright_cyan" = "$cyan"
+"terminal.bright_magenta" = "$magenta"
+"terminal.bright_black" = "#A0A1A7"
+
+"editor.background" = "#faf4ed"
+"editor.foreground" = "$white"
+"editor.dim" = "#A0A1A7"
+"editor.focus" = "#000000"
+"editor.caret" = "#526FFF"
+"editor.selection" = "$grey"
+"editor.current_line" = "#F2F2F2"
+"editor.link" = "$cyan"
+
+"inlay_hint.foreground" = "$black"
+"inlay_hint.background" = "#f2e9e180"
+
+"error_lens.error.foreground" = "$red"
+"error_lens.error.background" = "#E4564920"
+"error_lens.warning.foreground" = "$yellow"
+"error_lens.warning.background" = "#C1840120"
+"error_lens.other.foreground" = "#A0A1A7"
+"error_lens.other.background" = "#A0A1A720"
+
+"source_control.added" = "#50A14F32"
+"source_control.removed" = "#FF526632"
+"source_control.modified" = "#0184BC32"
+
+"palette.background" = "#faf4ed"
+"palette.current" = "#DBDBDC"
+
+"completion.background" = "#faf4ed"
+"completion.current" = "#DBDBDC"
+
+"hover.background" = "#faf4ed"
+
+"activity.background" = "#faf4ed"
+"activity.current" = "$white"
+
+"panel.background" = "#faf4ed"
+"panel.current" = "#DBDBDC"
+"panel.hovered" = "#E4E4E6"
+
+"status.background" = "#faf4ed"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "#f4ede8"
