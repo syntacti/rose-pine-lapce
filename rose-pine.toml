@@ -62,7 +62,7 @@ magenta = "#c4a7e7"
 "lapce.scroll_bar" = "$grey"
 
 
-"editor.background" = "$black"
+"editor.background" = "#191724"
 "editor.foreground" = "#FFFFFF"
 "editor.dim" = "#5C6370"
 "editor.focus" = "#CCCCCC"
