@@ -1,4 +1,4 @@
-[theme]
+[color-theme]
 name = "Rosé Pine"
 
 [ui]
@@ -11,7 +11,7 @@ activity-width = 50
 scroll-width = 10
 drop-shadow-width = 0
 
-[theme.base]
+[color-theme.base]
 white = "#e0def4"
 black = "#191724"
 grey = "#26233a"
@@ -24,7 +24,7 @@ purple = "#e0def4"
 cyan = "#ebbcba"
 magenta = "#c4a7e7"
 
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "#6e6a86"
 "constant" = "$green"
 "type" = "#9ccfd8"
@@ -66,8 +66,9 @@ magenta = "#c4a7e7"
 # "string.escape" = ""
 # "conceal" = ""
 # "none" = ""
+"tag" = "$blue"
 
-[theme.ui]
+[color-theme.ui]
 "lapce.active_tab" = "#26233a"
 "lapce.inactive_tab" = "$black"
 "lapce.error" = "$red"

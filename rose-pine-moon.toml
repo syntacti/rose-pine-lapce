@@ -1,4 +1,4 @@
-[theme]
+[color-theme]
 name = "Rosé Pine Moon"
 
 [ui]
@@ -11,7 +11,7 @@ activity-width = 50
 scroll-width = 10
 drop-shadow-width = 0
 
-[theme.base]
+[color-theme.base]
 white = "#e0def4"
 black = "#6e6a86"
 grey = "#393552"
@@ -24,7 +24,7 @@ purple = "#c4a7e7"
 cyan = "#ea9a97"
 magenta = "#c4a7e7"
 
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "#6e6a86"
 "constant" = "$yellow"
 "type" = "$yellow"
@@ -66,8 +66,9 @@ magenta = "#c4a7e7"
 # "string.escape" = ""
 # "conceal" = ""
 # "none" = ""
+"tag" = "$blue"
 
-[theme.ui]
+[color-theme.ui]
 "lapce.active_tab" = "$black"
 "lapce.inactive_tab" = "$grey"
 "lapce.error" = "$red"
