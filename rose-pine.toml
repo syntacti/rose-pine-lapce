@@ -1,3 +1,4 @@
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
 [color-theme]
 name = "Rosé Pine"
 
@@ -51,14 +52,14 @@ magenta = "#c4a7e7"
 "builtinType" = "$cyan"
 "escape" = "$cyan"
 "embedded" = "$cyan"
-"label" = "#c4a7e7"
+# "label" = "#c4a7e7"
 "variable" = "#e0def4"
-"operator" = "#ebbcba"
+# "operator" = "#ebbcba"
 # "symbol" = ""
 # "punctuation" = ""
 # "punctuation.special" = ""
 # "punctuation.delimiter" = ""
-"text" = "#e0def4"
+# "text" = "#e0def4"
 # "text.literal" = ""
 # "text.title" = ""
 # "text.uri" = ""
@@ -67,18 +68,33 @@ magenta = "#c4a7e7"
 # "conceal" = ""
 # "none" = ""
 "tag" = "$blue"
+"string.escape" = ""
+"punctuation.delimiter" = ""
 
 [color-theme.ui]
-"lapce.active_tab" = "#26233a"
-"lapce.inactive_tab" = "$black"
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "#1f1d2e"
 "lapce.border" = "#1f1d2e"
 "lapce.scroll_bar" = "$grey"
 
+"lapce.button.primary.background" = "#50a14f"
+"lapce.button.primary.foreground" = "$black"
 
-"editor.background" = "$black" # base
+
+# tab
+"lapce.tab.active.background" = "$black"
+"lapce.tab.active.foreground" = "$white"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "$black"
+"lapce.tab.inactive.foreground" = "$white"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = ""
+
+
+"editor.background" = "$black"    # base
 "editor.foreground" = "#FFFFFF"
 "editor.dim" = "#5C6370"
 "editor.focus" = "#CCCCCC"
@@ -114,7 +130,7 @@ magenta = "#c4a7e7"
 
 "panel.background" = "$black"
 "panel.current" = "$grey"
-"panel.hovered" = "#1f1d2e" 
+"panel.hovered" = "#1f1d2e"
 
 "status.background" = "$black"
 "status.modal.normal" = "$blue"
