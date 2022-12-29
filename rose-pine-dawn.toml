@@ -76,7 +76,6 @@ magenta = "#907aa9"
 "tag" = "$blue"
 
 [color-theme.ui]
-
 "lapce.error" = "$red"
 "lapce.warn" = "#E9A700"
 "lapce.dropdown_shadow" = "#cecacd"
@@ -88,12 +87,12 @@ magenta = "#907aa9"
 
 
 # tab
-"lapce.tab.active.background" = "$white"
-"lapce.tab.active.foreground" = "$black"
+"lapce.tab.active.background" = "#6e6a860d"
+"lapce.tab.active.foreground" = "#575279"
 "lapce.tab.active.underline" = "#528BFF"
 
-"lapce.tab.inactive.background" = "$grey"
-"lapce.tab.inactive.foreground" = "$black"
+"lapce.tab.inactive.background" = "#0000"
+"lapce.tab.inactive.foreground" = "#797593"
 "lapce.tab.inactive.underline" = "#528BFF77"
 
 "lapce.tab.separator" = ""
@@ -119,13 +118,18 @@ magenta = "#907aa9"
 "terminal.bright_black" = "$black"
 
 "editor.background" = "#faf4ed"
-"editor.foreground" = "$white"
+"editor.foreground" = "#575279"
 "editor.dim" = "#A0A1A7"
 "editor.focus" = "#000000"
 "editor.caret" = "#526FFF"
 "editor.selection" = "$grey"
 "editor.current_line" = "#F2F2F2"
 "editor.link" = "$cyan"
+"editor.visible_whitespace" = "$grey"
+"editor.indent_guide" = "$grey"
+"editor.drag_drop_background" = "#79c1fc33"
+"editor.drag_drop_tab_background" = "#0b0e1433"
+"editor.sticky_header_background" = "$white"
 
 "inlay_hint.foreground" = "$black"
 "inlay_hint.background" = "#cecacd88"
@@ -142,7 +146,9 @@ magenta = "#907aa9"
 "source_control.modified" = "#0184BC32"
 
 "palette.background" = "#faf4ed"
-"palette.current" = "#DBDBDC"
+"palette.foreground" = "$black"
+"palette.current.background" = "#DBDBDC"
+"palette.current.foreground" = "$black"
 
 "completion.background" = "#faf4ed"
 "completion.current" = "#DBDBDC"
@@ -153,8 +159,14 @@ magenta = "#907aa9"
 "activity.current" = "$white"
 
 "panel.background" = "#faf4ed"
-"panel.current" = "#DBDBDC"
-"panel.hovered" = "#E4E4E6"
+"panel.foreground" = "$black"
+"panel.foreground.dim" = "#A0A1A7"
+"panel.current.background" = "#DBDBDC"
+"panel.current.foreground" = "$black"
+"panel.current.foreground.dim" = "#A0A1A7"
+"panel.hovered.background" = "#E4E4E6"
+"panel.hovered.foreground" = "$black"
+"panel.hovered.foreground.dim" = "#A0A1A7"
 
 "status.background" = "#faf4ed"
 "status.modal.normal" = "$blue"

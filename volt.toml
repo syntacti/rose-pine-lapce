@@ -1,8 +1,8 @@
 name = "rose-pine"
-version = "0.2.0"
+version = "0.2.1"
 display-name = "Rosé Pine"
 author = "ghishadow"
 description = "Soho vibes for Lapce"
-repository = "ghishadow/rose-pine-lapce"
+repository = "https://github.com/syntacti/rose-pine-lapce"
 icon = "icon.png"
 color-themes = ["rose-pine.toml", "rose-pine-moon.toml", "rose-pine-dawn.toml"]
