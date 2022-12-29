@@ -1,4 +1,5 @@
-[theme]
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
+[color-theme]
 name = "Rosé Pine Moon"
 
 [ui]
@@ -11,7 +12,7 @@ activity-width = 50
 scroll-width = 10
 drop-shadow-width = 0
 
-[theme.base]
+[color-theme.base]
 white = "#e0def4"
 black = "#6e6a86"
 grey = "#393552"
@@ -24,7 +25,7 @@ purple = "#c4a7e7"
 cyan = "#ea9a97"
 magenta = "#c4a7e7"
 
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "#6e6a86"
 "constant" = "$yellow"
 "type" = "$yellow"
@@ -51,14 +52,14 @@ magenta = "#c4a7e7"
 "builtinType" = "$cyan"
 "escape" = "$cyan"
 "embedded" = "$cyan"
-"label" = "#c4a7e7"
+# "label" = "#c4a7e7"
 "variable" = "#e0def4"
-"operator" = "#ea9a97"
+# "operator" = "#ea9a97"
 # "symbol" = ""
 # "punctuation" = ""
 # "punctuation.special" = ""
 # "punctuation.delimiter" = ""
-"text" = "#e0def4"
+# "text" = "#e0def4"
 # "text.literal" = ""
 # "text.title" = ""
 # "text.uri" = ""
@@ -66,16 +67,30 @@ magenta = "#c4a7e7"
 # "string.escape" = ""
 # "conceal" = ""
 # "none" = ""
+"tag" = "$blue"
 
-[theme.ui]
-"lapce.active_tab" = "$black"
-"lapce.inactive_tab" = "$grey"
+[color-theme.ui]
+
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "#000000"
 "lapce.border" = "#000000"
 "lapce.scroll_bar" = "$grey"
 
+"lapce.button.primary.background" = "#ea9a97"
+"lapce.button.primary.foreground" = "#232136"
+
+
+# tab
+"lapce.tab.active.background" = "#817c9c14"
+"lapce.tab.active.foreground" = "#e0def4"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "#0000"
+"lapce.tab.inactive.foreground" = "#908caa"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = ""
 
 "editor.background" = "#232136"
 "editor.foreground" = "$white"
@@ -83,7 +98,7 @@ magenta = "#c4a7e7"
 "editor.focus" = "#CCCCCC"
 "editor.caret" = "#528BFF"
 "editor.selection" = "$grey"
-"editor.current_line" = "#2C313C"
+"editor.current_line" = "#39355288"
 "editor.link" = "$cyan"
 
 "inlay_hint.foreground" = "$white"
@@ -100,22 +115,31 @@ magenta = "#c4a7e7"
 "source_control.removed" = "#FF526632"
 "source_control.modified" = "#0184BC32"
 
-"palette.background" = "#232136"
-"palette.current" = "#2C313A"
+"palette.background" = "#2a273f"
+"palette.foreground" = "#e0def4"
+"palette.current.background" = "#39355280"
+"palette.current.foreground" = "$white"
 
 "completion.background" = "#232136"
-"completion.current" = "#2C313A"
+"completion.current" = "#39355280"
 
 "hover.background" = "#232136"
 
 "activity.background" = "#232136"
-"activity.current" = "$black"
+"activity.current" = "#ea9a97"
 
-"panel.background" = "$grey"
-"panel.current" = "#2C313A"
-"panel.hovered" = "#343A45"
+"panel.background" = "#2a273f"
+"panel.foreground" = "#e0def4"
+"panel.foreground.dim" = "#5C6370"
+"panel.current.background" = "#39355280"
+"panel.current.foreground" = "#232136"
+"panel.current.foreground.dim" = "#5C6370"
+"panel.hovered.background" = "#39355280"
+"panel.hovered.foreground" = "#232136"
+"panel.hovered.foreground.dim" = "#5C6370"
 
-"status.background" = "$grey"
+"status.background" = "#232136"
+"status.foreground" = "#908caa"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"

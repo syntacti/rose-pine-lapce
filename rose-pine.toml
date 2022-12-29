@@ -1,4 +1,5 @@
-[theme]
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
+[color-theme]
 name = "Rosé Pine"
 
 [ui]
@@ -11,7 +12,7 @@ activity-width = 50
 scroll-width = 10
 drop-shadow-width = 0
 
-[theme.base]
+[color-theme.base]
 white = "#e0def4"
 black = "#191724"
 grey = "#26233a"
@@ -24,7 +25,7 @@ purple = "#e0def4"
 cyan = "#ebbcba"
 magenta = "#c4a7e7"
 
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "#6e6a86"
 "constant" = "$green"
 "type" = "#9ccfd8"
@@ -51,14 +52,14 @@ magenta = "#c4a7e7"
 "builtinType" = "$cyan"
 "escape" = "$cyan"
 "embedded" = "$cyan"
-"label" = "#c4a7e7"
+# "label" = "#c4a7e7"
 "variable" = "#e0def4"
-"operator" = "#ebbcba"
+# "operator" = "#ebbcba"
 # "symbol" = ""
 # "punctuation" = ""
 # "punctuation.special" = ""
 # "punctuation.delimiter" = ""
-"text" = "#e0def4"
+# "text" = "#e0def4"
 # "text.literal" = ""
 # "text.title" = ""
 # "text.uri" = ""
@@ -66,23 +67,39 @@ magenta = "#c4a7e7"
 # "string.escape" = ""
 # "conceal" = ""
 # "none" = ""
+"tag" = "$blue"
+"string.escape" = ""
+"punctuation.delimiter" = ""
 
-[theme.ui]
-"lapce.active_tab" = "#26233a"
-"lapce.inactive_tab" = "$black"
+[color-theme.ui]
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "#1f1d2e"
 "lapce.border" = "#1f1d2e"
 "lapce.scroll_bar" = "$grey"
 
+"lapce.button.primary.background" = "#50a14f"
+"lapce.button.primary.foreground" = "$black"
 
-"editor.background" = "$black" # base
-"editor.foreground" = "#FFFFFF"
+
+# tab
+"lapce.tab.active.background" = "#6e6a861a"
+"lapce.tab.active.foreground" = "#e0def4"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "#0000"
+"lapce.tab.inactive.foreground" = "#908caa"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = ""
+
+
+"editor.background" = "$black"    # base
+"editor.foreground" = "#e0def4"
 "editor.dim" = "#5C6370"
 "editor.focus" = "#CCCCCC"
 "editor.caret" = "#528BFF"
-"editor.selection" = "#403d52"
+"editor.selection" = "#6e6a8633"
 "editor.current_line" = "#21202e"
 "editor.link" = "$magneta"
 
@@ -101,21 +118,31 @@ magenta = "#c4a7e7"
 "source_control.modified" = "#0184BC32"
 
 "palette.background" = "$black"
-"palette.current" = "$grey"
+"palette.foreground" = "$white"
+"palette.current.background" = "$grey"
+"palette.current.foreground" = "$white"
 
-"completion.background" = "$black"
+"completion.background" = "#26233a"
 "completion.current" = "$grey"
 
 "hover.background" = "$black"
 
-"activity.background" = "$black"
+"activity.background" = "#191724"
 "activity.current" = "$grey"
 
-"panel.background" = "$black"
-"panel.current" = "$grey"
-"panel.hovered" = "#1f1d2e" 
+"panel.background" = "#1f1d2e"
+"panel.foreground" = "$white"
+"panel.foreground.dim" = "#5C6370"
+"panel.current.background" = "#26233a80"
+"panel.current.foreground" = "$white"
+"panel.current.foreground.dim" = "#5C6370"
+"panel.hovered.background" = "#26233a80"
+"panel.hovered.foreground" = "$white"
+"panel.hovered.foreground.dim" = "#5C6370"
 
-"status.background" = "$black"
+
+"status.background" = "#191724"
+"status.foreground" = "#908caa"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"
@@ -124,7 +151,7 @@ magenta = "#c4a7e7"
 "markdown.blockquote" = "#21202e"
 
 "terminal.cursor" = "$white"
-"terminal.foreground" = "$white"
+"terminal.foreground" = "#e0def4"
 "terminal.background" = "$black"
 "terminal.white" = "$white"
 "terminal.black" = "$black"
