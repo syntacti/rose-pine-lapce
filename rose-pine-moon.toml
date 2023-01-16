@@ -104,7 +104,7 @@ magenta = "#c4a7e7"
 "editor.indent_guide" = "$grey"
 "editor.drag_drop_background" = "#79c1fc55"
 "editor.drag_drop_tab_background" = "#0b0e1455"
-"editor.sticky_header_background" = "$black"
+"editor.sticky_header_background" = "#393552"
 
 "inlay_hint.foreground" = "$white"
 "inlay_hint.background" = "#56526e88"
