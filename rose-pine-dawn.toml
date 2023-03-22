@@ -131,7 +131,7 @@ magenta = "#907aa9"
 "editor.drag_drop_tab_background" = "#0b0e1433"
 "editor.sticky_header_background" = "#f2e9e1"
 
-"inlay_hint.foreground" = "$black"
+"inlay_hint.foreground" = "#797593"
 "inlay_hint.background" = "#cecacd88"
 
 "error_lens.error.foreground" = "$red"
